@@ -1,0 +1,13 @@
+upper_tabs:
+  - name: Home
+    heading: Home
+    path: /
+    lower_tabs:
+      other:
+      - name: Home
+        contents:
+        - title: Home
+          path: /
+  - include: /_upper_tabs-Projects.yaml
+  - include: /_upper_tabs-Resume.yaml
+  - include: /_upper_tabs-Blog.yaml

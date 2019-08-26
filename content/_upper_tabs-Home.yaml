@@ -1,0 +1,12 @@
+toc:
+- name: Home
+  heading: About me
+  attributes:
+  - name: data-category
+    value: webFu
+  - name: data-label
+    value: upper-webfu
+  lower_tabs:
+    guides:
+    - title: Home
+      path: /

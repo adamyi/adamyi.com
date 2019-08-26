@@ -1,0 +1,9 @@
+parent_project_metadata_path: /_project.yaml
+name: Blog
+description: 'Thoughts, life, and technology'
+home_url: /blog/
+color: google-blue
+content_license: cc3-apache2
+footer_path: /_footer.yaml
+google_analytics_ids:
+  - UA-88064834-2

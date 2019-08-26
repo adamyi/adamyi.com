@@ -1,0 +1,15 @@
+{
+  "short_name": "Adam Yi",
+  "name": "Adam Yi",
+  "icons": [
+    {
+      "src": "/images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+  ],
+  "start_url": "/?homescreen=1",
+  "display": "browser",
+  "background_color": "#3F51B5",
+  "theme_color": "#3F51B5"
+}

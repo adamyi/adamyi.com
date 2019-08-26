@@ -1,0 +1,28 @@
+project_path: /_project.yaml
+book_path: /cv/_book.yaml
+title: Resume
+
+landing_page:
+  header:
+    description: <!-- no description -->
+
+  rows:
+  - custom_html: >
+      <style>
+        .cv-heading {
+          text-align: center;
+        }
+
+        .cv-heading__logo {
+          max-height: 272px;
+          margin: 0 40px;
+        }
+      </style>
+      <div class="cv-heading">
+      <p><img class="cv-heading__logo" src="/images/resume.bg.jpg" alt="Adam Yi" /></p>
+
+      <p class="devsite-landing-row-description">Version 2019-8-gc94cbaf-n. Last Updated: Aug 24 2019<br>SHA-256 Checksum: 156104fcb712ada6b604a6b8aca8d185c445440fc6209063a25fc35dc193e73b</p>
+
+      <p><a class="button button-primary" href="cv.pdf">Download Now</a>
+      <a class="button" href="view/">View Online</a></p>
+      </div>

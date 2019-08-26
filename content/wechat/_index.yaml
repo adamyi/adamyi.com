@@ -1,0 +1,25 @@
+project_path: /_project.yaml
+book_path: /_book.yaml
+title: WeChat
+
+landing_page:
+  header:
+    description: Add me on WeChat!
+
+  rows:
+  - custom_html: >
+      <style>
+        .wc-heading {
+          text-align: center;
+        }
+
+        .wc-heading__logo {
+          max-height: 450px;
+          margin: 0 40px;
+        }
+      </style>
+      <div class="wc-heading">
+      <p><img class="wc-heading__logo" src="/images/wechat.jpg" alt="WeChat QR code" /></p>
+
+      <p class="devsite-landing-row-description">Scan the QR code or search WeChat ID (adamyi)</p>
+      </div>

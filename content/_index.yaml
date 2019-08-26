@@ -1,0 +1,44 @@
+# ATTENTION - changes made to this file not in GitHub will be over written!
+project_path: /_project.yaml
+book_path: /_book.yaml
+landing_page:
+  custom_css_path: /styles/adamyi.css
+  meta_tags:
+  - name: description
+    content: Software/Site Reliability Enginner, Security/HCI Researcher, Event Organizer, and more...
+
+  header:
+    custom_html: >
+          <div class="devsite-header-background">
+          </div>
+
+  rows:
+  - classname: adamyi-landing-row
+    items:
+    - heading: >
+        <h1 class="adamyi-nameline">
+        <p class="first-line">Build a Better Future, with</p>
+        <p class="second-line">Adam Yi</p>
+        </h1>
+      description: >
+        <ul class="adamyi-affiliation-list">
+          <li><i class="material-icons adamyi-affiliation-check">check</i>Software/Site Reliability Engineer</li>
+          <li><i class="material-icons adamyi-affiliation-check">check</i>Security/HCI Researcher</li>
+          <li><i class="material-icons adamyi-affiliation-check">check</i>Event Organizer, and more...</li>
+        </ul> 
+      buttons:
+      - label: Check out the cool stuff I have done
+        path: /projects/
+        classname: button button-primary adamyi-home-portfolio-button
+      - label: Resume
+        path: /cv/
+        classname: button
+    - description: >
+        <div class="adamyi-home-logo" title="Adam Yi"></div>
+  - heading: Latest Blog Posts
+    background: blue-grey
+    classname: adamyi-updates-container
+    description: Check more posts by clicking the "Blog" on the navigation bar.
+    items:
+    - custom_html: >
+        {% include "_shared/latest_blog.html" %}

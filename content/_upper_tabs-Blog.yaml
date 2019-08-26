@@ -1,0 +1,11 @@
+toc:
+- name: Blog
+  attributes:
+  - name: data-category
+    value: webFu
+  - name: data-label
+    value: upper-updates
+  lower_tabs:
+    guides:
+    - title: Home
+      path: /blog/

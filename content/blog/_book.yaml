@@ -1,0 +1,21 @@
+# ATTENTION - changes made to this file not in GitHub will be over written! 
+upper_tabs:
+  - include: /_upper_tabs-Home.yaml
+  - include: /_upper_tabs-Projects.yaml
+  - include: /_upper_tabs-Resume.yaml
+  - name: Blog
+    heading: Blog
+    path: /blog/
+    lower_tabs:
+      other:
+      - name: Featured
+        contents:
+        - title: Featured
+          path: /blog/
+      - name: All
+        contents:
+        - include: /blog/2019/_toc.yaml
+        - include: /blog/2018/_toc.yaml
+      - name: Tags
+        contents:
+        - include: /blog/tags/_toc.yaml

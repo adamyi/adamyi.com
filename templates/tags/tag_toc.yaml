@@ -1,0 +1,10 @@
+# {# auto_generated #}
+# ATTENTION - This file is auto-generated, changes must be made to the template!
+
+toc:
+- title: Tags
+  path: /{{section}}/tags/
+  alternate_paths:
+{{#each tags}}
+  - /{{../section}}/tags/{{this}}
+{{/each}}

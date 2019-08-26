@@ -1,0 +1,204 @@
+project_path: /projects/_project.yaml
+book_path: /projects/_book.yaml
+
+landing_page:
+  custom_css_path: /styles/adamyi.css
+  custom_js_path: /scripts/projects.js
+  header:
+    description: Some of the cool things I've done
+
+  rows:
+  - items:
+    - description: >
+        <input type="checkbox" class="projects-filter-cb" data-id="type-coding" checked>Coding<br>
+        <input type="checkbox" class="projects-filter-cb" data-id="type-event" checked>Event<br>
+        <input type="checkbox" class="projects-filter-cb" data-id="type-others" checked>Others
+    - description: >
+        <input type="checkbox" class="projects-filter-cb" data-id="participation-leader" checked>Leader<br>
+        <input type="checkbox" class="projects-filter-cb" data-id="participation-contributor" checked>Contributor<br>
+    - description: >
+        <input type="checkbox" class="projects-filter-cb" data-id="seriousness-serious" checked>Serious<br>
+        <input type="checkbox" class="projects-filter-cb" data-id="seriousness-notserious" checked>Not so-serious<br>
+  - classname: devsite-landing-row-cards devsite-landing-row-multiline
+    items:
+    - heading: Cyber Challenge Australia 2018
+      classname: adamyi-project-card type-event participation-contributor seriousness-serious
+      description: >
+        Second Place (awards include tickets, flights, accomodation to Kiwicon in New Zealand and Canberra, and a new Pixel phone). Australia's only national cybersecurity competition, run by Australian Government, Telstra, PwC, Cisco, Microsoft, Commonwealth Bank, Splunk, BAE Systems, HackLabs
+      image_path: images/cysca-16x9.png
+      path: https://www.cyberchallenge.com.au/2018/
+      buttons:
+      - label: Website
+        path: https://www.cyberchallenge.com.au/2018/
+        target: _blank
+      - label: Scoreboard
+        path: https://www.cyberchallenge.com.au/2018/scoreboard/
+        target: _blank
+
+    - heading: MUNPANEL
+      classname: adamyi-project-card type-coding participation-leader seriousness-serious
+      description: >
+        Led a team of 4 to develop a Model United Nations platform that strives to radically
+        revolutionize how high school Model UN works in China. It had served 3 conferences,
+        170+ registered schools, and 2,000+ registered users, with 500+ max daily active users,
+        235,000+ total visits and 490,000+ CNY cash flow.
+      image_path: images/munpanel-16x9.png
+      path: https://www.munpanel.com/
+      buttons:
+      - label: GitHub
+        path: https://github.com/munpanel/munpanel_v1
+        target: _blank
+      - label: Read More
+        path: https://github.com/munpanel/2017report/blob/master/munpanel2017.pdf
+        target: _blank
+
+    - heading: MessageOnTap
+      classname: adamyi-project-card type-coding participation-contributor seriousness-serious
+      description: >
+        One of four core researchers in team of 12 at
+        <a href="http://cmuchimps.org">CHIMPS Lab</a>,
+        <a href="https://hcii.cmu.edu">Human-Computer Interaction Institute</a>,
+        <a href="https://cmu.edu">Carnegie Mellon University</a>, guided by
+        <a href="https://hcii.cmu.edu/people/fanglin-chen">Fanglin Chen, Ph.D.</a>
+        to build a smart Android instant messaging assistant; in charge of
+        framework architecture design.
+      image_path: images/chimpslab-16x9.png
+      path: https://github.com/MessageOnTap
+      buttons:
+      - label: GitHub
+        path: https://github.com/MessageOnTap
+        target: _blank
+      - label: Reference
+        path: https://adaml.ink/cmu-refer-2
+        target: _blank
+
+    - heading: White Hat (Ethical) Hacking
+      classname: adamyi-project-card type-others participation-contributor seriousness-serious
+      description: >
+        Found and reported 10+ vulnerabilities to large companies, like
+        <a href="https://www.globalcash.hk">GlobalCash</a> (a prepaid
+        MasterCard provider in Hong Kong), <a href="https://apple.com">Apple Inc</a>,
+        <a href="http://eyou.net">eYou</a> (one of the two largest
+        email server software providers in China), etc.
+      image_path: images/whitehat-16x9.png
+      path: https://en.wikipedia.org/wiki/White_hat_(computer_security)
+      buttons:
+      - label: What's white hat?
+        path: https://en.wikipedia.org/wiki/White_hat_(computer_security)
+        target: _blank
+
+    - heading: DeepScrub
+      classname: adamyi-project-card type-coding participation-leader seriousness-serious
+      description: >
+        Built a <a href="https://github.com/adamyi/CrowdAnnotator">crowd-sourcing website</a>
+        and hired 2,500+ <a href="https://www.mturk.com/">mTurk</a>
+        workers to annotate sensitive information to train a deep learning
+        <a href="https://en.wikipedia.org/wiki/Personally_identifiable_information">PII</a>
+        scrubbing algorithm, at <a href="http://cmuchimps.org">CHIMPS Lab</a>,
+        <a href="https://hcii.cmu.edu">Human-Computer Interaction Institute</a>,
+        <a href="https://cmu.edu">Carnegie Mellon University</a>.
+      image_path: images/chimpslab-16x9.png
+      path: "#"
+
+    - heading: Australian Cybersecurity Education Summit 2019 CTF
+      classname: adamyi-project-card type-coding participation-leader seriousness-serious
+      description: >
+        Built 20+ services and infrastructure for a fictional company as "hacking competition" target, including a zero-trust network environment (BeyondCorp-like). Also in charge of deployment, continuous integration, and stability of the entire system.
+      image_path: images/secedu-16x9.png
+      path: https://sec.edu.au/summit
+      buttons:
+      - label: Website
+        path: https://sec.edu.au/summit
+
+    - heading: golinks
+      classname: adamyi-project-card type-coding participation-leader seriousness-notserious
+      description: >
+        a Google-like go/ links service. Deployed on GCP and integrated with GSuite!
+      image_path: images/github-16x9.png
+      path: https://github.com/adamyi/golinks
+      buttons:
+      - label: Github
+        path: https://github.com/adamyi/golinks
+        target: _blank
+
+    - heading: Google Developers Community Programs
+      classname: adamyi-project-card type-others participation-contributor seriousness-serious
+      description: >
+        Translated subtitles of keynotes and sessions of
+        <a href="https://en.wikipedia.org/wiki/Google_I/O">Google I/O</a> 2016
+        and 2017 into Chinese for YouTube, StudyJams, Youku, and Bilibili; invited
+        to Google I/O 2017 as a community partner;
+        co-organized several events like <i>TensorFlow Dev Summit 2018 Extended Beijing</i>
+      image_path: images/gds-16x9.png
+      path: https://developers.google.cn
+      buttons:
+      - label: I/O 17 Keynote
+        path: https://youtu.be/EtQ8Le8-zyo
+        target: _blank
+
+    - heading: Notes to Keep
+      classname: adamyi-project-card type-coding participation-leader seriousness-notserious
+      description: >
+        Export all your Apple iCloud Notes to your Google Keep.
+      image_path: images/github-16x9.png
+      path: https://github.com/adamyi/notes_to_keep
+      buttons:
+      - label: Github
+        path: https://github.com/adamyi/notes_to_keep
+        target: _blank
+
+    - heading: v6dns
+      classname: adamyi-project-card type-coding participation-leader seriousness-notserious
+      description: >
+        A DNS Server which lets IPv4-prioritized devices to use IPv6 first, or lets IPv6-prioritized devices to use IPv4 first.
+      image_path: images/github-16x9.png
+      path: https://github.com/adamyi/v6dns
+      buttons:
+      - label: Github
+        path: https://github.com/adamyi/v6dns
+        target: _blank
+
+    - heading: BSides Sydney 2019
+      classname: adamyi-project-card type-event participation-contributor seriousness-notserious
+      description: >
+        Volunteer. BSides is an Information Security conference.
+        This is the first ever BSides in Sydney!
+      image_path: images/bsides-syd-16x9.png
+      path: https://bsidessydney.org/
+      buttons:
+      - label: Official Website
+        path: https://bsidessydney.org
+        target: _blank
+
+    - heading: Chaoli Forum
+      classname: adamyi-project-card type-coding participation-contributor seriousness-notserious
+      description: >
+        Member of the initial development team of an online forum for Math, Physics, Chemistry
+        and Informatics enthusiasts, that now has 6,000+ users and 42,000+ threads (developed
+        on top of esoTalk, a no-longer-maintained open-source project).
+      image_path: images/chaoli-16x9.png
+      path: "https://chaoli.club"
+      buttons:
+      - label: Visit Site
+        path: https://chaoli.club
+        target: _blank
+      - label: esoTalk
+        path: https://github.com/esotalk/esoTalk
+        target: _blank
+
+    - heading: Beijing 101 High School
+      classname: adamyi-project-card type-others participation-leader seriousness-serious
+      description: >
+        Co-founded the Technology Department of the school Student Union, elected as Vice-Director,
+        and became Director in senior year; Co-managed 101MUN club, the second largest club in the school;
+        Completed 2 engineering research projects and received Gold Medal and Special Award at 43<sup>rd</sup> International
+        Exhibition of Inventions of Geneva, and 20,000 CNY award at the 16<sup>th</sup> (National) Awarding Program for Future Scientists.
+      image_path: images/beijing101-16x9.png
+      path: "http://www.beijing101.com"
+      buttons:
+      - label: Xinhua News Agency (in Chinese)
+        path: http://www.xinhuanet.com/world/2015-04/16/c_1114992943.htm
+        target: _blank
+      - label: Swissinfo (in Chinese)
+        path: https://www.swissinfo.ch/chi/%E6%97%A5%E5%86%85%E7%93%A6%E5%9B%BD%E9%99%85%E5%8F%91%E6%98%8E%E5%B1%95_%E5%9B%B4%E7%BB%95%E8%83%BD%E6%BA%90%E4%B8%8E%E7%8E%AF%E5%A2%83%E7%9A%84%E5%B0%8F%E5%8F%91%E6%98%8E/41372790
+        target: _blank

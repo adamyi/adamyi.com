@@ -1,0 +1,56 @@
+footer:
+- banner: Presented with ❤ by Adam Yi.
+- promos:
+  - label: GitHub
+    description: Check some of my open-source projects and contributions.
+    path: https://github.com/adamyi
+    icon: /images/logo-github.svg
+  - label: Git@yiad.am
+    description: Check even more open-source projects.
+    path: https://git.yiad.am
+    icon: /images/gerrit-diffy.svg
+  - label: LinkedIn
+    description: Connect with me and see my connections.
+    path: https://linkedin.com/in/adam-yi
+    icon: /images/logo-linkedin.svg
+  - label: Facebook
+    description: Feel free to add me if you know me.
+    path: https://facebook.com/adamxuanyi
+    icon: /images/logo-facebook.svg
+  - label: StackOverflow
+    description: See my answers to some technical questions.
+    path: https://stackoverflow.com/users/6482303/adamyi
+    icon: /images/logo-so.svg
+
+
+- linkboxes:
+  - name: Adam Yi
+    contents:
+    - label: Home
+      path: /
+    - label: Projects
+      path: /projects/
+    - label: Resume
+      path: /cv/
+    - label: Blog
+      path: /blog/
+
+  - name: Contact
+    contents:
+    - label: Send an email
+      path: mailto:i@adamyi.com
+    - label: Anonymous Message
+      path: https://docs.google.com/forms/d/e/1FAIpQLSdceT5T4-dDu_ZBaBM8_kReFqlJC8Faf2HSI_20B8zPE2brpw/viewform
+    - label: WeChat
+      path: /wechat/
+
+  - name: Contribute
+    contents:
+    - label: File an Issue
+      path: https://github.com/adamyi/adamyi.com/issues
+    - label: View Content Source Code
+      path: https://github.com/adamyi/adamyi.com
+    - label: View Server Source Code
+      path: https://github.com/adamyi/easfs
+    - label: License
+      path: /license/
