@@ -100,15 +100,15 @@ landing_page:
       image_path: images/chimpslab-16x9.png
       path: "#"
 
-    - heading: Australian Cybersecurity Education Summit 2019 CTF
+    - heading: SECedu CTF 2019 by UNSW and CommBank
       classname: adamyi-project-card type-coding participation-leader seriousness-serious
       description: >
         Built 20+ services and infrastructure for a fictional company as "hacking competition" target, including a zero-trust network environment (BeyondCorp-like). Also in charge of deployment, continuous integration, and stability of the entire system.
       image_path: images/secedu-16x9.png
-      path: https://sec.edu.au/summit
+      path: https://sec.edu.au/
       buttons:
       - label: Website
-        path: https://sec.edu.au/summit
+        path: https://sec.edu.au/
 
     - heading: golinks
       classname: adamyi-project-card type-coding participation-leader seriousness-notserious
