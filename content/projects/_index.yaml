@@ -103,12 +103,12 @@ landing_page:
     - heading: SECedu CTF 2019 by UNSW and CommBank
       classname: adamyi-project-card type-coding participation-leader seriousness-serious
       description: >
-        Built 20+ services and infrastructure for a fictional company as "hacking competition" target, including a zero-trust network environment (BeyondCorp-like). Also in charge of deployment, continuous integration, and stability of the entire system.
+        Built 20+ services and infrastructure for a fictional company as "hacking competition" target, including a zero-trust network environment (BeyondCorp-like). Also in charge of building, deployment, continuous integration, and stability of the entire system.
       image_path: images/secedu-16x9.png
-      path: https://sec.edu.au/
+      path: https://github.com/adamyi/Geegle3
       buttons:
-      - label: Website
-        path: https://sec.edu.au/
+      - label: Github
+        path: https://github.com/adamyi/Geegle3
 
     - heading: golinks
       classname: adamyi-project-card type-coding participation-leader seriousness-notserious
