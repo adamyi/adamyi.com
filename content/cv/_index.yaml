@@ -21,7 +21,7 @@ landing_page:
       <div class="cv-heading">
       <p><img class="cv-heading__logo" src="/images/resume.bg.jpg" alt="Adam Yi" /></p>
 
-      <p class="devsite-landing-row-description">Version 2019-16-gfee29fa-n. Last Updated: Nov 10 2019<br>SHA-256 Checksum: f26b430f0102c654fd5e9393c3d6d6b38df9e0275902bd974a20e08226dabc40</p>
+      <p class="devsite-landing-row-description">Version 2019-20-g9ca5f39-n. Last Updated: Feb 12 2020<br>SHA-256 Checksum: 136d1e2ab97d1d2fe634edf8d6aa6537ab242b58973da19d9154038affc5ccc5</p>
 
       <p><a class="button button-primary" href="cv.pdf">Download Now</a>
       <a class="button" href="view/">View Online</a></p>
