@@ -35,7 +35,7 @@ Tags: {{#each tags}}[{{this}}](/{{../../section}}/tags/{{this}}) {{/each}}
 {{/each}}
 
 <a href="https://adamyi.com/{{section}}/rss.xml">
-  <img src="/images/md-icons/ic_rss_feed_black_48dp.svg" style="height:36px;">
+  <img src="/images/md-icons/ic_rss_feed_white_48dp.svg" style="height:36px;">
   <span style="position:relative;top:-6px;">Subscribe</span>
   <link rel="alternate" type="application/rss+xml" title="RSS" href="https://adamyi.com/{{section}}/rss.xml">
   <link rel="alternate" type="application/atom+xml" title="ATOM" href="https://adamyi.com/{{section}}/atom.xml">
