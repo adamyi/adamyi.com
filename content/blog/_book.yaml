@@ -14,6 +14,7 @@ upper_tabs:
           path: /blog/
       - name: All
         contents:
+        - include: /blog/2020/_toc.yaml
         - include: /blog/2019/_toc.yaml
         - include: /blog/2018/_toc.yaml
       - name: Tags

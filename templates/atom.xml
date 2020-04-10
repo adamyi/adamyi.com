@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ title }}</title>
-  <icon>https://developers.google.com/web/images/web-fundamentals-icon192x192.png</icon>
   <id>{{ baseUrl }}</id>
   <subtitle>{{ description }}</subtitle>
   <updated>{{ atomPubDate }}</updated>
-  <logo>https://developers.google.com/web/images/web-fundamentals-icon192x192.png</logo>
   <link href="{{#if feedRoot }}{{ feedRoot }}{{else}}{{ baseUrl }}{{/if}}atom.xml" rel="self" />
   <link href="{{ baseUrl }}{{{ analyticsQS }}}" />
   {{#each articles}}
@@ -17,14 +15,12 @@
     <id>{{ ../host }}{{ url }}</id>
     <content type="html">
       <![CDATA[
-        <img src="https://ga-beacon.appspot.com/UA-88064834-2{{#if analyticsUrl }}{{ analyticsUrl }}{{else}}{{ url }}{{/if}}?feed_type=atom&pixel">
-
         {{{ content }}}
       ]]>
     </content>
     {{#each tags}}<category term="{{this}}" label="{{this}}"/> {{/each}}
     <author>
-      <name>{{#if feedAuthor }}{{ feedAuthor }}{{else}}Google Developers{{/if}}</name>
+      <name>{{#if feedAuthor }}{{ feedAuthor }}{{else}}Adam Yi{{/if}}</name>
     </author>
   </entry>
   {{/each}}
