@@ -28,7 +28,7 @@ This was for SECedu CTF 2019, a national CTF competition with students from Sydn
 * Play it here: [https://mail.corp.geegle.org](https://mail.corp.geegle.org) (SSO credentials: username adamsfriends password adamisgood)
 * Scoreboard: [https://scoreboard.corp.geegle.org](https://scoreboard.corp.geegle.org) (SSO credentials: username adamsfriends password adamisgood)
 * Source Code (infra): [https://github.com/adamyi/Geegle3/tree/master/infra](https://github.com/adamyi/Geegle3/tree/master/infra)
-* Source Code (everything): [https://github.com/adamyi/Geegle3/](https://github.com/adamyi/Geegle3/)
+* Source Code (everything, solution under each chal subdir): [https://github.com/adamyi/Geegle3/](https://github.com/adamyi/Geegle3/)
 * All challenges description/emails (not all are unlocked for adamsfriends@): [https://docs.google.com/document/d/1pgIbiwRGKaQQROt0lFuDUrE3Tk7eFbq40aJhb5hx3wY/edit](https://docs.google.com/document/d/1pgIbiwRGKaQQROt0lFuDUrE3Tk7eFbq40aJhb5hx3wY/edit)
 * Challenge List: [https://docs.google.com/spreadsheets/d/15xOhZdRnNxNbSMNUSxPG_8K92lHa4z5SKJWPPTy5tAc/edit](https://docs.google.com/spreadsheets/d/15xOhZdRnNxNbSMNUSxPG_8K92lHa4z5SKJWPPTy5tAc/edit)
 
@@ -54,7 +54,7 @@ A Number guessing game CTF challenge. Exploit weak pseudo-random number generato
 A LaTeX injection web challenge with incremental steps (from arbitrary file read to RCE). This was part of SECedu CTF 2019.
 
 * Play it here: [https://docs.corp.geegle.org](https://docs.corp.geegle.org) (SSO credentials: username adamsfriends password adamisgood)
-Source Code & Solution: [https://github.com/adamyi/Geegle3/tree/master/chals/web/docs](https://github.com/adamyi/Geegle3/tree/master/chals/web/docs)
+* Source Code & Solution: [https://github.com/adamyi/Geegle3/tree/master/chals/web/docs](https://github.com/adamyi/Geegle3/tree/master/chals/web/docs)
 
 ### PasteWeb
 A XSS challenge with a 5-step chain and script gadget. This was part of SECedu CTF 2019.
