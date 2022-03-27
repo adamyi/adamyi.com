@@ -43,7 +43,7 @@
     "jsonschema": "^1.2.0",
     "marked": "^0.3.6",
     "mdast-util-to-string": "^1.0.2",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "mkdirp": "^0.5.1",
     "moment": "^2.14.1",
     "npm": "^5.7.1",
